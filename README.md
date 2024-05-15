@@ -63,7 +63,8 @@ This approach uses LWC and Apex controller in the back end. Api call to fetch th
 * Target Config lightning__RecordPage is used to allow the component to be used on a lightning detail page as per the requirement.
 
 **Testing**
-Testing the components with both approaches: Used account object as I was testing in my personal sandbox. Components are placed on the right side panel of the detail page. Component with refresh button is the component using Approach Two.
+**Unit tests** -- TBD. Can be added to both lwc and Apex (using mock interfaces)
+**Functional testing** -- Please find below the functional testing of the components with both approaches: Used account object as I was testing in my personal sandbox. Components are placed on the right side panel of the detail page. Component with refresh button is the component using LWC + Apex.
 
 https://github.com/nadavalli/Merz-Project/assets/55205333/df5aa2e3-8660-4f81-9ae0-7ce764057bec
 
