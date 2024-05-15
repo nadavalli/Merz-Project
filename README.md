@@ -60,4 +60,9 @@ shipmentTracker.js-meta.xml:
 ---- isExposed is Set to True in order to expose the component to the platform.
 ---- Target Config lightning__RecordPage is used to allow the component to be used on a lightning detail page as per the requirement.
 
+Testing the components with both approaches: Used account object as I was testing in my personal sandbox. Components are placed on the right side panel of the detail page. Component with refresh button is the component using Approach Two.
+
+https://github.com/nadavalli/Merz-Project/assets/55205333/335aecd4-a782-4548-bf32-6302d0b7dd37
+
+
 
