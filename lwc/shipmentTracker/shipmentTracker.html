@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Shipment Status">
+        <template lwc:if={dataLoaded}>
+            <p class="slds-p-horizontal_small"><lightning-icon icon-name={statusIcon} size="xx-small"></lightning-icon> {trackingStatus} </p>
+        </template>
+        <template lwc:else> 
+            <lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
+        </template> 
+    </lightning-card>
+</template>
