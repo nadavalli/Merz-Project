@@ -3,6 +3,7 @@ This project contains files related to the coding assessment from Merz.
 **Assumptions made:**
 1. Api Name of the shipment object is Shipment__c.
 2. Api Name of the tracking number field on Shipment Object is Tracking_Number__c.
+3. Although we can just display the message directly without making an Api call when the tracking number is blank, still performing the call to be in line with the functionality requested.
 
 The repo contains two approaches to solving the problem:
 1. Fetch the status directly from LWC.
@@ -61,6 +62,7 @@ This approach uses LWC and Apex controller in the back end. Api call to fetch th
 * isExposed is Set to True in order to expose the component to the platform.
 * Target Config lightning__RecordPage is used to allow the component to be used on a lightning detail page as per the requirement.
 
+**Testing**
 Testing the components with both approaches: Used account object as I was testing in my personal sandbox. Components are placed on the right side panel of the detail page. Component with refresh button is the component using Approach Two.
 
 https://github.com/nadavalli/Merz-Project/assets/55205333/df5aa2e3-8660-4f81-9ae0-7ce764057bec
